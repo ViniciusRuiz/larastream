@@ -14,7 +14,7 @@
     <div class="flex items-center justify-center h-screen">
 
         <div class="text-white text-2xl md:text-3xl lg:text-5xl font-semibold rounded-lg p-5">
-            We'll back soon!
+            We'll be back soon!
         </div>
 
     </div>
