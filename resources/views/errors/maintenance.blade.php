@@ -22,7 +22,7 @@
         </div>
         <ul class="flex flex-row mt-4 space-x-5">
             <li>
-                <a href="https://sainseni.origin-bottom"
+                <a href="https://sainseni.org"
                     class="flex items-center justify-center h-8 w-8 border rounded-full text-white">
                     <i class="fas fa-link"></i>
                 </a>
