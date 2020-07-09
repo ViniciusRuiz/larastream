@@ -22,6 +22,10 @@ Route::get('/', function () {
 return view('welcome');
 });
 
+Route::get('/maintenance', function () {
+return view('errors.maintenance');
+});
+
 Route::get('restricted/login', function () {
 return view('login');
 });
