@@ -19,7 +19,7 @@
         <nav class="flex lg:rounded items-center bg-gray-800 flex-wrap p-4 lg:px-8 justify-between">
             <div class="flex items-center flex-no-shrink text-white mr-6">
                 <img src="{{ asset('img/terebitw.png') }}" alt="Terebiinime" width="30px" class="mr-2">
-                <h2 class="font-mono text-lg font-semibold">Terebinime</h2>
+                <a href="/" class="font-mono text-lg font-semibold">Terebinime</a>
                 <div class="ml-1 align-items-center text-lg align-content-start">
                     <button id="toggle-mode">
                         <i class="fas fa-sun text-orange-400"></i>

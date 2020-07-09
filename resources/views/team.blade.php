@@ -65,40 +65,38 @@
 
     <div class="container mx-auto rounded mt-6 mx-2">
         <div
-            class="flex flex-col shadow-lg rounded text-white items-center justify-center bg-gray-800 mx-4 py-4 lg:mx-0 ">
-            <div class="mx-4">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, assumenda
-                    ipsum
-                    ipsam ad et amet,
-                    voluptatum debitis in vero voluptatem eum tempora non quam possimus eaque! Nemo repudiandae quaerat
-                    esse!. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non velit eligendi in ipsa
-                    doloremque!
-                    Fuga repudiandae eligendi saepe cumque delectus. Laborum aperiam cumque ab, atque sint eveniet dolor
-                    a
-                    perspiciatis.</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, assumenda
-                    ipsum
-                    ipsam ad et amet,
-                    voluptatum debitis in vero voluptatem eum tempora non quam possimus eaque! Nemo repudiandae
-                    quaerat
-                    esse!. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non velit eligendi in ipsa
-                    doloremque!
-                    Fuga repudiandae eligendi saepe cumque delectus. Laborum aperiam cumque ab, atque sint eveniet
-                    dolor
-                    a
-                    perspiciatis.</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, assumenda
-                    ipsum
-                    ipsam ad et amet,
-                    voluptatum debitis in vero voluptatem eum tempora non quam possimus eaque! Nemo repudiandae
-                    quaerat
-                    esse!. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non velit eligendi in ipsa
-                    doloremque!
-                    Fuga repudiandae eligendi saepe cumque delectus. Laborum aperiam cumque ab, atque sint
-                    eveniet dolor
-                    a
-                    perspiciatis.</p>
+            class="flex flex-col shadow-lg rounded text-white items-center justify-center bg-gray-800 mx-4 py-8 lg:mx-0 ">
+            <div class="inline-flex rounded-full overflow-hidden h-40 w-40">
+                <img src="{{ asset('img/yukino.png') }}" alt="" class="h-full w-full">
             </div>
+
+            <h2 class="mt-4 font-bold text-xl">Yukino</h2>
+            <h6 class="mt-2 text-sm font-medium">Developer</h6>
+
+            <p class="text-xs text-gray-500 text-center mt-3">
+                College Student at Lambung Mangkurat University
+            </p>
+
+            <ul class="flex flex-row mt-4 space-x-2">
+                <li>
+                    <a href="https://web.facebook.com/clsdamnt"
+                        class="flex items-center justify-center h-8 w-8 border rounded-full text-white">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/khoironiks"
+                        class="flex items-center justify-center h-8 w-8 border rounded-full text-white">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/khoironiks"
+                        class="flex items-center justify-center h-8 w-8 border rounded-full text-white">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
 

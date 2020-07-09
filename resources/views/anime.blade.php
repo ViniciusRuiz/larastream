@@ -19,13 +19,13 @@
         <nav class="flex lg:rounded items-center bg-gray-800 flex-wrap p-4 lg:px-8 justify-between">
             <div class="flex items-center flex-no-shrink text-white mr-6">
                 <img src="{{ asset('img/terebitw.png') }}" alt="Terebiinime" width="30px" class="mr-2">
-                <h2 class="font-mono text-lg font-semibold">Terebinime</h2>
-                <div class="ml-1 align-items-center text-lg align-content-start">
-                    <button id="toggle-mode">
-                        <i class="fas fa-sun text-orange-400"></i>
-                        <!-- <i class="fas fa-moon text-white"></i> -->
-                    </button>
-                </div>
+                <a href="/" class="font-mono text-lg font-semibold">Terebinime</h2>
+                    <div class="ml-1 align-items-center text-lg align-content-start">
+                        <button id="toggle-mode">
+                            <i class="fas fa-sun text-orange-400"></i>
+                            <!-- <i class="fas fa-moon text-white"></i> -->
+                        </button>
+                    </div>
             </div>
             <d class="flex align-content-end items-center">
                 <div class="hidden md:block text-white">
@@ -298,9 +298,9 @@
     <footer>
         <div class="footer bg-gray-900 font-sans text-center text-white align-items-center mb-4 mt-8">
             <div class="inline">
-                <a class="mx-4" href="">About</a>
-                <a class="mx-4" href="">Team</a>
-                <a class="mx-4" href="">Contact</a>
+                <a class="mx-4" href="about">About</a>
+                <a class="mx-4" href="team">Team</a>
+                <a class="mx-4" href="contact">Contact</a>
             </div>
             <h5>Powered by <a href="https://sainseni.org/" target="_blank">Sainseni</a>. Made with <i
                     class="fa fa-heart text-red-600"></i>
