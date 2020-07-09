@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Terebinime - Page</title>
+    <title>Terebinime</title>
     <link rel="shortcut icon" href="{{ asset('img/terebi.png') }}" type="image/png">
     <!-- CSS -->
     <link rel="stylesheet" href="/css/main.css">

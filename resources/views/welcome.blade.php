@@ -298,9 +298,9 @@
     <footer>
         <div class="footer bg-gray-900 font-sans text-center text-white align-items-center mb-4 mt-8">
             <div class="inline">
-                <a class="mx-4" href="">Contact</a>
-                <a class="mx-4" href="">About</a>
-                <a class="mx-4" href="">License</a>
+                <a class="mx-4" href="about">About</a>
+                <a class="mx-4" href="team">Team</a>
+                <a class="mx-4" href="contact">Contact</a>
             </div>
             <h5>Powered by <a href="https://sainseni.org/" target="_blank">Sainseni</a>. Made with <i
                     class="fa fa-heart text-red-600"></i>

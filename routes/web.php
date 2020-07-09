@@ -12,11 +12,32 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('restricted', 'AdminController@index');
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('anime', function () {
+    return view('anime');
 });
 
-Route::get('/page', function () {
+Route::get('/', function () {
+return view('welcome');
+});
+
+Route::get('restricted', function () {
+return view('admin');
+});
+
+Route::get('page', function () {
 return view('page');
+});
+
+Route::get('about', function () {
+return view('about');
+});
+
+Route::get('team', function () {
+return view('team');
+});
+
+Route::get('contact', function () {
+return view('contact');
 });
