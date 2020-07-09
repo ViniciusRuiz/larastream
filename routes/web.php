@@ -19,7 +19,7 @@ Route::get('anime/{$id}', function () {
 });
 
 Route::get('/', function () {
-return view('welcome');
+return view('errors.maintenance');
 });
 
 Route::get('/maintenance', function () {
