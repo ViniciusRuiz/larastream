@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('restricted', 'AdminController@index');
 
-Route::get('anime', function () {
+Route::get('anime/{$id}', function () {
     return view('anime');
 });
 
@@ -22,8 +22,8 @@ Route::get('/', function () {
 return view('welcome');
 });
 
-Route::get('restricted', function () {
-return view('admin');
+Route::get('restricted/login', function () {
+return view('login');
 });
 
 Route::get('page', function () {

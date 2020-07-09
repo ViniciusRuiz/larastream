@@ -10,7 +10,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="/css/main.css">
 
-<body class="bg-gray-900 font-mono leading-normal tracking-normal">
+<body class="bg-gray-900 leading-normal tracking-normal">
     <div class="flex items-center justify-center h-screen">
 
         <div class="bg-gray-800 text-white text-2xl md:text-3xl lg:text-5xl font-bold rounded-lg p-5">
