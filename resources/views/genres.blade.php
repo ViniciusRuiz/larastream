@@ -27,7 +27,7 @@
                     </button>
                 </div>
             </div>
-            <d class="flex align-content-end items-center">
+            <div class="flex align-content-end items-center">
                 <div class="hidden md:block text-white">
                     <input class="input bg bg-gray-900 rounded border border-transparent px-3" placeholder="Search" />
                 </div>
@@ -41,254 +41,84 @@
                 <div class="hidden lg:block">
                     <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                         <div class="text-sm lg:flex-grow text-white font-semibold">
-                            <a href="#responsive-header" class="no-underline text-grey-dark border-b-2 border-transparent hover:border-blue-600 uppercase
+                            <a href="anime" class="no-underline text-grey-dark border-b-2 border-transparent hover:border-blue-600 uppercase
                             tracking-wide font-bold text-xs py-3 ml-8">
                                 Anime List
                             </a>
-                            <a href="#responsive-header" class="no-underline text-grey-dark border-b-2 border-transparent hover:border-blue-600 uppercase tracking-wide
+                            <a href="genres" class="no-underline text-grey-dark border-b-2 border-transparent hover:border-blue-600 uppercase tracking-wide
                             font-bold text-xs py-3 ml-8">
                                 Genres
                             </a>
-                            <a href="#responsive-header" class="no-underline text-grey-dark border-b-2 border-transparent hover:border-blue-600 uppercase tracking-wide
+                            <a href="release" class="no-underline text-grey-dark border-b-2 border-transparent hover:border-blue-600 uppercase tracking-wide
                             font-bold text-xs py-3 ml-8">
                                 Release Date
                             </a>
                         </div>
                     </div>
                 </div>
-    </div>
-    </nav>
+            </div>
+        </nav>
     </div>
 
     <!--Container-->
 
     <div class="container mx-auto rounded mt-6 mx-2">
         <div class="grid-rows-2 mb-8">
-            <div class="row-span-1">
-                <div class="flex justify-between text-white text-sm">
-                    <h2 class="uppercase tracking-wider font-semibold mx-4 lg:mx-0 lg:my-2"><i
-                            class="fas fa-grip-lines-vertical text-blue-600"></i> New
-                        Coming</h2>
-
-                    <a href="" class="uppercase tracking-wider font-semibold mx-4 lg:mx-0 lg:my-2">See
-                        All <i class="fas fa-chevron-right"></i></a>
-                </div>
-            </div>
             <div class="row-span-1 lg:mx-0 mx-2">
                 <div class="grid lg:gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
+                    <div class="relative shadow-lg rounded group h-20 w-30 flex justify-center items-center
+                            mx-2 my-2 lg:m-0">
+                        <div class="rounded-lg h-full w-full bg-white absolute z-10 bg-cover bg-center opacity-50 hover:opacity-100 transition-all duration-500 ease-in-out"
+                            style="background-image: url('{{ asset('img/neko.jpg') }}')">
                         </div>
+                        <a class="font-bold text-lg text-white absolute z-20 pointer-events-none">
+                            Action
+                        </a>
                     </div>
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
+                    <div class="relative shadow-lg rounded group h-20 w-30 flex justify-center items-center
+                            mx-2 my-2 lg:m-0">
+                        <div class="rounded-lg h-full w-full bg-white absolute z-10 bg-cover bg-center opacity-50 hover:opacity-100 transition-all duration-500 ease-in-out"
+                            style="background-image: url('{{ asset('img/neko.jpg') }}')">
                         </div>
+                        <a class="font-bold text-lg text-white absolute z-20 pointer-events-none">
+                            Action
+                        </a>
                     </div>
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
+                    <div class="relative shadow-lg rounded group h-20 w-30 flex justify-center items-center
+                            mx-2 my-2 lg:m-0">
+                        <div class="rounded-lg h-full w-full bg-white absolute z-10 bg-cover bg-center opacity-50 hover:opacity-100 transition-all duration-500 ease-in-out"
+                            style="background-image: url('{{ asset('img/neko.jpg') }}')">
                         </div>
+                        <a class="font-bold text-lg text-white absolute z-20 pointer-events-none">
+                            Action
+                        </a>
                     </div>
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
+                    <div class="relative shadow-lg rounded group h-20 w-30 flex justify-center items-center
+                            mx-2 my-2 lg:m-0">
+                        <div class="rounded-lg h-full w-full bg-white absolute z-10 bg-cover bg-center opacity-50 hover:opacity-100 transition-all duration-500 ease-in-out"
+                            style="background-image: url('{{ asset('img/neko.jpg') }}')">
                         </div>
+                        <a class="font-bold text-lg text-white absolute z-20 pointer-events-none">
+                            Action
+                        </a>
                     </div>
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
+                    <div class="relative shadow-lg rounded group h-20 w-30 flex justify-center items-center
+                            mx-2 my-2 lg:m-0">
+                        <div class="rounded-lg h-full w-full bg-white absolute z-10 bg-cover bg-center opacity-50 hover:opacity-100 transition-all duration-500 ease-in-out"
+                            style="background-image: url('{{ asset('img/neko.jpg') }}')">
                         </div>
+                        <a class="font-bold text-lg text-white absolute z-20 pointer-events-none">
+                            Action
+                        </a>
                     </div>
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
+                    <div class="relative shadow-lg rounded group h-20 w-30 flex justify-center items-center
+                            mx-2 my-2 lg:m-0">
+                        <div class="rounded-lg h-full w-full bg-white absolute z-10 bg-cover bg-center opacity-50 hover:opacity-100 transition-all duration-500 ease-in-out"
+                            style="background-image: url('{{ asset('img/neko.jpg') }}')">
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="grid-rows-2 mb-8">
-            <div class="row-span-1">
-                <div class="flex justify-between text-white text-sm">
-                    <h2 class="uppercase tracking-wider font-semibold mx-4 lg:mx-0 lg:my-2"><i
-                            class="fas fa-grip-lines-vertical text-blue-600"></i> Popular</h2>
-
-                    <a href="" class="uppercase tracking-wider font-semibold mx-4 lg:mx-0 lg:my-2">See
-                        All <i class="fas fa-chevron-right"></i></a>
-                </div>
-            </div>
-            <div class="row-span-1 lg:mx-0 mx-2">
-                <div class="grid lg:gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
-                        </div>
-                    </div>
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
-                        </div>
-                    </div>
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
-                        </div>
-                    </div>
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
-                        </div>
-                    </div>
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
-                        </div>
-                    </div>
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="grid-rows-2 mb-8">
-            <div class="row-span-1">
-                <div class="flex justify-between text-white text-sm">
-                    <h2 class="uppercase tracking-wider font-semibold mx-4 lg:mx-0 lg:my-2"><i
-                            class="fas fa-grip-lines-vertical text-blue-600"></i> New</h2>
-
-                    <a href="" class="uppercase tracking-wider font-semibold mx-4 lg:mx-0 lg:my-2">See
-                        All <i class="fas fa-chevron-right"></i></a>
-                </div>
-            </div>
-            <div class="row-span-1 lg:mx-0 mx-2">
-                <div class="grid lg:gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
-                        </div>
-                    </div>
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
-                        </div>
-                    </div>
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
-                        </div>
-                    </div>
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
-                        </div>
-                    </div>
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
-                        </div>
-                    </div>
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="grid-rows-2 mb-8">
-            <div class="row-span-1">
-                <div class="flex justify-between text-white text-sm">
-                    <h2 class="uppercase tracking-wider font-semibold mx-4 lg:mx-0 lg:my-2"><i
-                            class="fas fa-grip-lines-vertical text-blue-600"></i> Top Airing</h2>
-
-                    <a href="" class="uppercase tracking-wider font-semibold mx-4 lg:mx-0 lg:my-2">See
-                        All <i class="fas fa-chevron-right"></i></a>
-                </div>
-            </div>
-            <div class="row-span-1 lg:mx-0 mx-2">
-                <div class="grid lg:gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
-                        </div>
-                    </div>
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
-                        </div>
-                    </div>
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
-                        </div>
-                    </div>
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
-                        </div>
-                    </div>
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
-                        </div>
-                    </div>
-                    <div
-                        class="text-white hover:text-blue-600 max-w rounded bg-gray-800 overflow-hidden shadow-lg mx-2 my-2 lg:m-0 ">
-                        <img class=" w-full" src="{{ asset('img/neko.jpg') }}" alt="Sunset in the mountains">
-                        <div class="px-6 py-3">
-                            <div class="font-bold">Noragami Maou</div>
-                        </div>
+                        <a class="font-bold text-lg text-white absolute z-20 pointer-events-none">
+                            Action
+                        </a>
                     </div>
                 </div>
             </div>

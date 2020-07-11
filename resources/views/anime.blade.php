@@ -19,15 +19,15 @@
         <nav class="flex lg:rounded items-center bg-gray-800 flex-wrap p-4 lg:px-8 justify-between">
             <div class="flex items-center flex-no-shrink text-white mr-6">
                 <img src="{{ asset('img/terebitw.png') }}" alt="Terebiinime" width="30px" class="mr-2">
-                <a href="/" class="font-mono text-lg font-semibold">Terebinime</h2>
-                    <div class="ml-1 align-items-center text-lg align-content-start">
-                        <button id="toggle-mode">
-                            <i class="fas fa-sun text-orange-400"></i>
-                            <!-- <i class="fas fa-moon text-white"></i> -->
-                        </button>
-                    </div>
+                <a href="/" class="font-mono text-lg font-semibold">Terebinime</a>
+                <div class="ml-1 align-items-center text-lg align-content-start">
+                    <button id="toggle-mode">
+                        <i class="fas fa-sun text-orange-400"></i>
+                        <!-- <i class="fas fa-moon text-white"></i> -->
+                    </button>
+                </div>
             </div>
-            <d class="flex align-content-end items-center">
+            <div class="flex align-content-end items-center">
                 <div class="hidden md:block text-white">
                     <input class="input bg bg-gray-900 rounded border border-transparent px-3" placeholder="Search" />
                 </div>
@@ -41,23 +41,23 @@
                 <div class="hidden lg:block">
                     <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                         <div class="text-sm lg:flex-grow text-white font-semibold">
-                            <a href="#responsive-header" class="no-underline text-grey-dark border-b-2 border-transparent hover:border-blue-600 uppercase
+                            <a href="anime" class="no-underline text-grey-dark border-b-2 border-transparent hover:border-blue-600 uppercase
                             tracking-wide font-bold text-xs py-3 ml-8">
                                 Anime List
                             </a>
-                            <a href="#responsive-header" class="no-underline text-grey-dark border-b-2 border-transparent hover:border-blue-600 uppercase tracking-wide
+                            <a href="genres" class="no-underline text-grey-dark border-b-2 border-transparent hover:border-blue-600 uppercase tracking-wide
                             font-bold text-xs py-3 ml-8">
                                 Genres
                             </a>
-                            <a href="#responsive-header" class="no-underline text-grey-dark border-b-2 border-transparent hover:border-blue-600 uppercase tracking-wide
+                            <a href="release" class="no-underline text-grey-dark border-b-2 border-transparent hover:border-blue-600 uppercase tracking-wide
                             font-bold text-xs py-3 ml-8">
                                 Release Date
                             </a>
                         </div>
                     </div>
                 </div>
-    </div>
-    </nav>
+            </div>
+        </nav>
     </div>
 
     <!--Container-->

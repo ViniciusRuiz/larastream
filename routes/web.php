@@ -14,8 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('restricted', 'AdminController@index');
 
+Route::get('release', function () {
+    return view('realease');
+});
+
 Route::get('anime', function () {
-    return view('anime');
+return view('anime');
 });
 
 Route::get('genres', function () {
