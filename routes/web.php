@@ -14,15 +14,23 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('restricted', 'AdminController@index');
 
-Route::get('anime/{$id}', function () {
+Route::get('anime', function () {
     return view('anime');
+});
+
+Route::get('genres', function () {
+    return view('genres');
+});
+
+Route::get('download', function () {
+    return view('download');
 });
 
 Route::get('/', function () {
 return view('errors.maintenance');
 });
 
-Route::get('/maintenance', function () {
+Route::get('maintenance', function () {
 return view('errors.maintenance');
 });
 
