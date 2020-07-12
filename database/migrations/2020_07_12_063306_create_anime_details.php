@@ -15,6 +15,14 @@ class CreateAnimeDetails extends Migration
     {
         Schema::create('anime_details', function (Blueprint $table) {
             $table->id();
+            $table->string('title');
+            $table->text('description');
+            $table->integer('score');
+            $table->enum('status', ['ongoing', 'competed']);
+            $table->integer('episodes');
+            $table->year('year');
+            $table->set('genres', ['action', 'comedy']);
+            $table->date('created_at');
             $table->timestamps();
         });
     }
